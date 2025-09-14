@@ -1,6 +1,6 @@
 export default function handler(req, res) {
   // Aquí defines el valor fijo
-  const corwail = "false"; // <-- cámbialo a "false" cuando quieras
+  const corwail = "true"; // <-- cámbialo a "false" cuando quieras
 
   if (req.method === "GET") {
     return res.status(200).json({ corwail });
